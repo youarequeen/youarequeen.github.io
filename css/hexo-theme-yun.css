@@ -191,7 +191,7 @@ html.dark {
 }
 body {
   font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0;
   padding: 0;
   line-height: 2;
@@ -222,23 +222,23 @@ h6 {
 }
 h1 {
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 h2 {
   font-size: 2.2rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 h3 {
   font-size: 1.9rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 h4 {
   font-size: 1.6rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 h5 {
   font-size: 1.3rem;
-  font-weight: 400;
+  font-weight: 500;
 }
 h6 {
   font-size: 1rem false;
@@ -1549,7 +1549,7 @@ input {
 }
 .markdown-body {
   color: var(--hty-text-color);
-  font-weight: 400;
+  font-weight: 500;
   font-family: 'PingFang SC', 'Microsoft YaHei', Roboto, Arial, sans-serif;
 }
 .markdown-body code,
@@ -2079,6 +2079,25 @@ input {
 }
 #say #say-from {
   display: block;
+}
+.notice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Songti SC', 'Noto Serif SC', STZhongsong, STKaiti, KaiTi, Roboto, serif;
+  font-weight: bold;
+  padding: 1rem;
+  margin: 1rem auto;
+  border: 1px solid #000;
+  max-width: calc(900px - 2rem);
+  background-color: rgba(255,255,255,0.3);
+}
+@media screen and (max-width: 768px) {
+  .notice {
+    border-left-width: 0px;
+    border-right-width: 0px;
+  }
 }
 .heimu {
   background-color: var(--hty-text-color);
