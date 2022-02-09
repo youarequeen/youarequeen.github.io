@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", initScrollReveal);
 document.addEventListener("pjax:success", initScrollReveal);
 </script><link class="aplayer-style-marker" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.css"><script class="aplayer-script-marker" src="https://cdn.jsdelivr.net/npm/aplayer@latest/dist/APlayer.min.js" defer></script><script class="meting-script-marker" src="https://cdn.jsdelivr.net/npm/meting@1/dist/Meting.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/pjax@latest/pjax.min.js" defer></script><script src="/js/pjax.js" defer type="module"></script><script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script><link rel="icon" type="image/svg+xml" href="/yun.svg"><link rel="mask-icon" href="/yun.svg" color="#0078E7"><link rel="preload" href="/css/hexo-theme-yun.css" as="style"><link rel="prefetch" href="/js/sidebar.js" as="script"><link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin><script id="yun-config">
     window.Yun = {}
-    window.CONFIG = {"hostname":"youarequeen.github.io","root":"/","title":"安静&如初的小站","version":"1.8.8","mode":"auto","copycode":true,"page":{"isPost":false},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"anonymous_image":"https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/avatar/none.jpg","say":{"api":"https://el-bot-api.vercel.app/api/words/young"},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"darken":"https://cdn.jsdelivr.net/npm/darken@1.5.0"}};
+    window.CONFIG = {"hostname":"youarequeen.github.io","root":"/","title":"安静&如初的小站","version":"1.8.8","mode":"auto","copycode":true,"page":{"isPost":false},"i18n":{"placeholder":"搜索...","empty":"找不到您查询的内容: ${query}","hits":"找到 ${hits} 条结果","hits_time":"找到 ${hits} 条结果（用时 ${time} 毫秒）"},"say":{"api":"https://v1.hitokoto.cn","hitokoto":true},"fireworks":{"colors":["102, 167, 221","62, 131, 225","33, 78, 194"]},"vendors":{"darken":"https://cdn.jsdelivr.net/npm/darken@1.5.0"}};
   </script><link rel="stylesheet" href="/css/hexo-theme-yun.css"><script src="/js/hexo-theme-yun.js" type="module"></script><link rel="alternate" href="/atom.xml" title="安静&如初的小屋" type="application/atom+xml"><script>(function(){
   var bp = document.createElement('script');
   var curProtocol = window.location.protocol.split(':')[0];
@@ -51,34 +51,7 @@ document.addEventListener("pjax:success", initScrollReveal);
   100%{
     text-shadow: 0 5px 10px rgba(0,0,0,0), 
   }
-}</style><article><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"></div></section></article></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>要不要和我说些什么？</span><br><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/youarequeen/youarequeen.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">t</a><style> {
-  display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">w</a><style> {
-  display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">i</a><style> {
-  display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">k</a><style> {
-  display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">o</a><style> {
-  display: none;
-}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">o</a><script>function hideAllComment() {
-  //- hide all
-  document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
-    const container = document.querySelector(btn.dataset.target);
-    if (container) {
-      container.style.display = "none";
-    }
-  });
-}
-function showComment(target) {
-  hideAllComment();
-  //- show target
-  const targetContainer = document.querySelector(target);
-  if (targetContainer) {
-    targetContainer.style.display = "block";
-  }
-}
-</script></div><div id="tcomment"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", () => {
+}</style><article><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"></div></section></article></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>要不要和我说些什么？</span><br><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/youarequeen/youarequeen.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><div id="tcomment"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", () => {
   const twikooConfig = {"enable":true,"envId":"https://twikoo-sigma-six.vercel.app/"}
   twikooConfig.el = '#tcomment'
   twikoo.init(twikooConfig)
