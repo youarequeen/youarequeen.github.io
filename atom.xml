@@ -6,7 +6,7 @@
   <link href="https://youarequeen.github.io/atom.xml" rel="self"/>
   
   <link href="https://youarequeen.github.io/"/>
-  <updated>2022-02-08T00:50:28.562Z</updated>
+  <updated>2022-02-09T02:22:21.216Z</updated>
   <id>https://youarequeen.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于网站</title>
+    <link href="https://youarequeen.github.io/2022/02/09/%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99/"/>
+    <id>https://youarequeen.github.io/2022/02/09/%E5%85%B3%E4%BA%8E%E7%BD%91%E7%AB%99/</id>
+    <published>2022-02-09T02:18:38.148Z</published>
+    <updated>2022-02-09T02:22:21.216Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>目前网站还有许多bug，由于本人并不是专业的，所以能不能修复就随缘了。</p><p>欢迎各位访客评论。q(≧▽≦q)</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\assets\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\assets\js\APlayer.min.js&quot; cla</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
