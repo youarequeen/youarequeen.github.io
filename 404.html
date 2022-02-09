@@ -51,7 +51,34 @@ document.addEventListener("pjax:success", initScrollReveal);
   100%{
     text-shadow: 0 5px 10px rgba(0,0,0,0), 
   }
-}</style><article><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"></div></section></article></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>要不要和我说些什么？</span><br><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/youarequeen/youarequeen.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><div id="tcomment"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", () => {
+}</style><article><section class="post-body" itemprop="articleBody"><div class="post-content markdown-body"></div></section></article></div><div class="hty-card" id="comment"><div class="comment-tooltip text-center"><span>要不要和我说些什么？</span><br><span>如果您有任何关于博客内容的相关讨论，欢迎前往 <a href="https://github.com/youarequeen/youarequeen.github.io/discussions" target="_blank">GitHub Discussions</a> 与我交流。</span><br></div><div class="toggle-comment-system" style="margin: 1rem auto"><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">t</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">w</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">i</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">k</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">o</a><style> {
+  display: none;
+}</style><a class="toggle-comment-btn hty-button hty-button--raised text-uppercase" onclick="showComment(this.dataset.target)">o</a><script>function hideAllComment() {
+  //- hide all
+  document.querySelectorAll('.toggle-comment-btn').forEach((btn) => {
+    const container = document.querySelector(btn.dataset.target);
+    if (container) {
+      container.style.display = "none";
+    }
+  });
+}
+function showComment(target) {
+  hideAllComment();
+  //- show target
+  const targetContainer = document.querySelector(target);
+  if (targetContainer) {
+    targetContainer.style.display = "block";
+  }
+}
+</script></div><div id="tcomment"></div><script>Yun.utils.getScript("https://cdn.jsdelivr.net/npm/twikoo@latest/dist/twikoo.all.min.js", () => {
   const twikooConfig = {"enable":true,"envId":"https://twikoo-sigma-six.vercel.app/"}
   twikooConfig.el = '#tcomment'
   twikoo.init(twikooConfig)
